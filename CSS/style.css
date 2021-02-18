@@ -1,0 +1,609 @@
+/* jost-regular - latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/Jost/jost-v6-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/Jost/jost-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jost-500 - latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/Jost/jost-v6-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/Jost/jost-v6-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jost-700 - latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/Jost/jost-v6-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/Jost/jost-v6-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jost-900 - latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../fonts/Jost/jost-v6-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/Jost/jost-v6-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*Bison-bold*/
+@font-face {
+    font-family: 'Bison';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/Bison/Bison-Bold.eot');
+    src: local('Bison Bold'), local('Bison-Bold'),
+    url('../fonts/Bison/Bison-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Bison/Bison-Bold.woff2') format('woff2'),
+    url('../fonts/Bison/Bison-Bold.woff') format('woff'),
+    url('../fonts/Bison/Bison-Bold.ttf') format('truetype');
+}
+
+:root {
+    --backgroundSite: #E5E5E5;
+    --white: white;
+    --Main: #73F9BC;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "kerola", helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--backgroundSite);
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+ul,
+li,
+h1,
+h2,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    position: relative;
+    width: 1920px;
+    height: 2500px;
+    background: #171716;
+    margin: 0 auto;
+}
+
+/*--header menu*/
+header {
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    background: #171716;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/*menu*/
+.menu {
+    width: 1160px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vector-mini {
+    display: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    font-family: 'Bison';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+
+li:first-child {
+    padding-right: 64px;
+}
+
+li:nth-child(2) {
+    padding-right: 64px;
+}
+
+.nav-phone {
+    display: none;
+}
+
+.main-intro-container {
+    background: url("../img/Frame4711.jpg");
+    width: 1920px;
+    height: 1080px;
+}
+
+.main-intro-container__gradient {
+    background: linear-gradient(180deg, rgba(23, 23, 22, 0) 57.87%, #171716 79.58%);
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+.content {
+    width: 1160px;
+    position: absolute;
+    top: 147px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.content-phone {
+    display: none;
+}
+
+/* Frame 471 1 */
+.content-inner {
+    display: flex;
+}
+
+.content-inner__text {
+    width: 624px;
+}
+
+.content-inner__picture {
+    width: 536px;
+    height: 618px;
+    background: url("../img/Group82.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-intro-container__title-world {
+    font-family: 'Bison';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 5rem;
+    line-height: 6rem;
+    color: var(--Main);
+    padding-top: 2.07rem;
+}
+
+.main-intro-container__title-dive {
+    margin-top: 2.14rem;
+    font-family: Bison;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.29rem;
+    line-height: 1.57rem;
+    color: var(--white);
+    opacity: 0.5;
+}
+
+.main-intro-container__cloud {
+    width: 28rem;
+    margin-top: .71rem;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 120%;
+    color: var(--white);
+    opacity: 0.5;
+}
+
+.main-intro-container__automation {
+    width: 28rem;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 120%;
+    color: var(--Main);
+}
+
+.ticket-button {
+    width: 360px;
+    height: 65px;
+    background: var(--white);
+    margin-top: 40px;
+    font-family: Bison;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    padding: 0;
+    border: 0;
+}
+
+.main-intro-container__poster {
+    width: 1160px;
+    height: 66px;
+    position: absolute;
+    transform: translate(0, -100%);
+    background: #171716;
+    border: 1px solid var(--Main);
+}
+
+.poster-text {
+    width: 65.9rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -56%);
+    font-family: Bison;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.64rem;
+    line-height: 5.57rem;
+    color: var(--Main);
+}
+
+/* AGENDA */
+.content-inner__bottom {
+    margin-top: 10.7rem;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 8.57rem;
+    text-align: center;
+    color: var(--Main);
+}
+
+/* Group 262 */
+.group-262 {
+    margin: 0 auto;
+    color: var(--white);
+    width: 1900px;
+    height: 1511px;
+}
+
+.group-262__title {
+    font-family: Bison;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.57rem;
+    line-height: 4.29rem;
+    text-align: center;
+}
+
+.group-262__text {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.43rem;
+    line-height: 2.07rem;
+    margin: 2.14rem 2.14rem;
+    text-align: center;
+}
+
+/* Group 249 */
+.group-249 {
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.group-249-phone {
+    display: none;
+}
+
+.group-249-get {
+    width: 387px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 32px;
+    color: #171716;
+}
+
+.group-249-get.color {
+    background-color: var(--Main);
+}
+
+.group-249-get.text {
+    color: var(--white);
+    border-top: 1px solid var(--white);
+    border-right: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+}
+
+/*track*/
+
+.track {
+    width: 100%;
+    display: flex;
+    color: var(--white);
+    margin: 40px 0 50px 0;
+}
+
+.track-career,
+.track-pro {
+    width: 50%;
+}
+
+.track-career__title {
+    font-family: Jost;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 116px;
+    text-align: center;
+}
+
+.track-career__text {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.track-career__title.color {
+    color: var(--Main);
+}
+
+.track-title {
+    /*width: 100%;*/
+    height: 68px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 51px;
+    color: #171716;
+    background-color: var(--Main);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+/*track-content*/
+.track-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+
+}
+
+.track-content_phone {
+    display: none;
+}
+
+/*track-content__career*/
+.track-content__career {
+    border-left: 1px solid var(--white);
+    border-right: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+    width: 940px;
+}
+
+.track-content-item {
+    display: flex;
+}
+
+.track-time {
+    font-family: Bison;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--Main);
+    margin: 23px 0 0 30px;
+}
+
+.track-time-last {
+    font-family: Bison;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--Main);
+    width: 385px;
+    margin: 42px 0 44px 30px;
+}
+
+.track-name {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 10px 0 0 30px;
+}
+
+.track-logo {
+    width: 150px;
+    height: 60px;
+    margin: 28px 0 21px 30px;
+}
+
+.horizon-logo {
+    background: url(../img/horizon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(0%) sepia(100%) saturate(6%) hue-rotate(264deg) brightness(141%) contrast(100%);
+}
+
+.sale-logo {
+    background: url(../img/sale.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dazn-logo {
+    background: url(../img/dazn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.track-content-item__photo {
+    width: 150px;
+    height: 150px;
+    margin: 23px 0 25px 35px;
+}
+
+.Alexander-photo {
+    background: url(../img/Alexander.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ivan-photo {
+    background: url(../img/ivan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rochit-photo {
+    background: url(../img/rochit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.track-text {
+    width: 410px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 29px 0 25px 50px;
+}
+
+.track-text-last {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 42px 0 44px 0;
+}
+
+.button-show {
+    width: 160px;
+    height: 40px;
+    font-family: Bison;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    background: var(--Main);
+    padding: 0;
+    border: 0;
+    margin: 15px 40px 25px 50px
+}
+
+.button-add {
+    width: 160px;
+    height: 40px;
+    font-family: Bison;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    background: #171716;
+    border: 2px solid var(--white);
+    color: var(--white);
+    padding: 0;
+}
+
+hr {
+    background-color: var(--white);
+    height: 2px;
+    width: 890px;
+    border: 0;
+    opacity: 0.2;
+}
+
+/*track-content__pro*/
+.track-content__pro {
+    border-left: 1px solid var(--Main);
+    border-right: 1px solid var(--Main);
+    border-bottom: 1px solid var(--Main);
+    width: 940px;
+}
+
+.heidi-photo {
+    background: url(../img/heidi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.emma-photo {
+    background: url(../img/emma.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.michael-photo {
+    background: url(../img/michael.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.oracle-logo {
+    background: url(../img/oracle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(100%) sepia(100%) saturate(6%) hue-rotate(264deg) brightness(141%) contrast(100%);
+    margin: 28px 0 21px 30px;
+}
+
+.nasa-logo {
+    background: url(../img/nasa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(100%) sepia(100%) saturate(6%) hue-rotate(264deg) brightness(141%) contrast(100%);
+    margin: 28px 0 21px 30px;
+}
+

@@ -1,0 +1,285 @@
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 375px;
+        height: 3350px;
+    }
+
+    header {
+        width: 356px;
+        height: 40px;
+        border: 1px solid var(--Main);
+        margin: 10px 10px 0 10px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .vector-mini {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .vectorG,
+    .nav {
+        display: none;
+    }
+
+    .nav-phone {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .nav-phone-item {
+        width: 15px;
+        height: 1px;
+        background-color: var(--white);
+    }
+
+    .nav-phone-item:nth-child(2) {
+        margin: 2px 0 2px 0;
+    }
+
+    .main-intro-container {
+        width: 375px;
+        height: 875px;
+    }
+
+    .main-intro-container__gradient {
+        width: 375px;
+        height: 875px;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .content-phone {
+        position: relative;
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 70px;
+    }
+
+    .content-inner__text {
+        width: 100%;
+    }
+
+    .main-intro-container__title-world {
+        font-size: 43px;
+        line-height: 52px;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .main-intro-container__title-dive {
+        margin-top: 2.14rem;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .main-intro-container__cloud {
+        width: 20rem;
+        margin-top: .71rem;
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+    .main-intro-container__automation {
+        width: 20rem;
+        margin-top: .71rem;
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+    .ticket-button {
+        width: 300px;
+        height: 55px;
+        margin-top: 0;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -80%);
+    }
+
+    .content-inner__picture {
+        width: 285px;
+        height: 330px;
+        margin: 0 auto;
+    }
+
+    .main-intro-container__poster {
+        width: 300px;
+        height: 37px;
+        transform: translate(0, 60%);
+    }
+
+    .poster-text {
+        width: 284px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .content-inner__bottom {
+        font-size: 60px;
+        line-height: 87px;
+    }
+
+    .group-262 {
+        display: block;
+        width: 300px;
+    }
+
+    .group-262__title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .group-262__text {
+        font-size: 14px;
+        line-height: 20px;
+        width: 300px;
+        margin: 2.14rem 0 2.14rem 0;
+    }
+
+    .group-249-phone {
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 26px;
+        color: #171716;
+        width: 300px;
+        height: 55px;
+        margin: 0 auto;
+        background-color: var(--Main);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .group-249 {
+        display: none;
+    }
+
+    .track {
+        display: block;
+        margin: 40px 0 35px 0;
+    }
+
+    .track-career {
+        width: 100%;
+    }
+
+    .track-career__title {
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    .track-career__text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .track-pro {
+        display: none;
+    }
+
+    .track-title {
+        font-size: 25px;
+        line-height: 120%;
+    }
+
+    .track-content {
+        display: none;
+    }
+
+    .track-content_phone {
+        display: block;
+    }
+
+    .track-content__career {
+        width: 100%;
+    }
+
+    .track-content-item {
+        width: 100%;
+    }
+
+    .track-time {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 18px 0 0 0;
+    }
+
+    .track-name {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 0px 0 0 0px;
+    }
+
+    .track-logo {
+        width: 100px;
+        height: 40px;
+        margin: 0 0 0 10px;
+    }
+
+    .track-content-item__photo {
+        width: 100px;
+        height: 100px;
+        margin: 20px 40px 3px 10px;
+    }
+
+    .track-text {
+        width: 121px;
+        font-size: 14px;
+        line-height: 120%;
+        margin: 19px 0 0 0;
+    }
+
+    .track-time-last {
+        width: 85px;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .track-text-last {
+        font-size: 14px;
+        line-height: 120%;
+        margin: 0;
+    }
+
+    .button-show,
+    .button-add {
+        width: 140px;
+        height: 30px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .button-show {
+        margin: 18px 0 0 0;
+    }
+
+    .button-add {
+        margin: 10px 0 20px 0;
+    }
+
+    .track-content-item__last {
+        margin: 20px 0 20px 150px;
+    }
+
+    hr {
+        width: 282px;
+        margin: 0 8px 0 8px;
+    }
+
+    .track-content__pro {
+        width: 100%;
+    }
+
+    .track-pro__phone {
+        margin: 40px 0 35px 0;
+    }
+}
